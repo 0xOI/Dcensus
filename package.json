@@ -1,0 +1,16 @@
+{
+  "name": "Ðcensus",
+  "version": "0.0.1",
+  "description": "real-time, decentralized census application",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ahmad Wilson",
+  "license": "ISC",
+  "devDependencies": {
+  }
+}
