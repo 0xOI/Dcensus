@@ -11,6 +11,8 @@
   },
   "author": "Ahmad Wilson",
   "license": "ISC",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
+    "truffle": "^4.1.13"
   }
 }
