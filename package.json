@@ -1,5 +1,5 @@
 {
-  "name": "Ðcensus",
+  "name": "Dcensus",
   "version": "0.0.1",
   "description": "real-time, decentralized census application",
   "main": "truffle.js",
@@ -7,11 +7,14 @@
     "test": "test"
   },
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ahmad Wilson",
   "license": "ISC",
-  "devDependencies": {},
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  },
   "dependencies": {
     "truffle": "^4.1.13"
   }
