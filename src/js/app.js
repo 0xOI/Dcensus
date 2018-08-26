@@ -85,6 +85,21 @@ App = {
     });
   },
 
+  getStat: function() {
+    event.preventDefault();
+
+    let _stat = $(event.target).data('value');
+
+    App.contracts.DCensus.deployed().
+      then((instance) => {
+        return instance.getStat({
+	  _category: _stat
+        });
+      }).
+      catch((err) => console.error(err));
+  }
+};
+
 $(function() {
   $(window).load(function() {
     App.init();
