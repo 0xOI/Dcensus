@@ -77,7 +77,7 @@ App = {
     App.contracts.DCensus.deployed().then((instance) => {
       instance.LogAddStat({}, {}).watch((error, event) => {
         if (!error) {
-          $("#events").append('<li class="list-group-item">' + event.args._category + ' has been added</li>');
+          $("#events").append('<li class="list-group-item">' + event.args._category + ' of ' + event.args._value + ' has been added</li>');
         } else {
           console.error(error);
         }
