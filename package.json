@@ -16,6 +16,8 @@
     "lite-server": "^2.4.0"
   },
   "dependencies": {
+    "lodash": "^4.17.12",
+    "tar": "^2.2.2",
     "truffle": "^4.1.13"
   }
 }
